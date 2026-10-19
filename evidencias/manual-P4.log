@@ -1,0 +1,47 @@
+[09:30:47.012500] P4 | aguardando conexões na porta 5004
+Comandos: eleicao | status | sair
+[P4] comando> ID: P4 | Coordenador: indefinido | Eleição: False
+[P4] comando> [09:30:47.416715] P4 | P5 --> P4 : COORDINATOR (novo coordenador: P5)
+ID: P4 | Coordenador: P5 | Eleição: False
+[P4] comando> ID: P4 | Coordenador: P5 | Eleição: False
+[P4] comando> [09:30:48.080727] P4 | P2 --> P4 : ELECTION
+[09:30:48.080951] P4 | P4 --> P2 : OK
+[09:30:48.081277] P4 | INICIANDO ELEIÇÃO (iniciador local: P4)
+[09:30:48.081392] P4 | P4 --> P5 : ELECTION
+[09:30:48.084318] P4 | P5 indisponível / sem OK
+[09:30:48.084436] P4 | VENCEDOR: P4 É O NOVO COORDENADOR
+[09:30:48.084468] P4 | P4 --> P1 : COORDINATOR:4
+[09:30:48.084678] P4 | P3 --> P4 : ELECTION
+[09:30:48.084932] P4 | P4 --> P3 : OK
+[09:30:48.085966] P4 | P4 --> P2 : COORDINATOR:4
+[09:30:48.087578] P4 | P4 --> P3 : COORDINATOR:4
+[09:30:48.088993] P4 | P4 --> P5 : COORDINATOR:4
+ID: P4 | Coordenador: P4 | Eleição: False
+[P4] comando> ID: P4 | Coordenador: P4 | Eleição: False
+[P4] comando> [09:30:48.888304] P4 | P5 --> P4 : COORDINATOR (novo coordenador: P5)
+ID: P4 | Coordenador: P5 | Eleição: False
+[P4] comando> [09:30:49.493184] P4 | INICIANDO ELEIÇÃO (iniciador local: P4)
+[09:30:49.493305] P4 | P4 --> P5 : ELECTION
+[P4] comando> ID: P4 | Coordenador: P5 | Eleição: True
+[P4] comando> [09:30:49.493595] P4 | P5 indisponível / sem OK
+[09:30:49.493633] P4 | VENCEDOR: P4 É O NOVO COORDENADOR
+[09:30:49.493650] P4 | P4 --> P1 : COORDINATOR:4
+[09:30:49.494825] P4 | P4 --> P2 : COORDINATOR:4
+[09:30:49.496144] P4 | P4 --> P3 : COORDINATOR:4
+[09:30:49.497429] P4 | P4 --> P5 : COORDINATOR:4
+ID: P4 | Coordenador: P4 | Eleição: False
+[P4] comando> ID: P4 | Coordenador: P4 | Eleição: False
+[P4] comando> [09:30:50.469049] P4 | P3 --> P4 : ELECTION[09:30:50.469260] P4 | P2 --> P4 : ELECTION
+
+[09:30:50.469762] P4 | P4 --> P3 : OK[09:30:50.469883] P4 | P4 --> P2 : OK
+
+[09:30:50.470658] P4 | INICIANDO ELEIÇÃO (iniciador local: P4)
+[09:30:50.471016] P4 | P4 --> P5 : ELECTION
+[09:30:50.471322] P4 | P5 indisponível / sem OK
+[09:30:50.471361] P4 | VENCEDOR: P4 É O NOVO COORDENADOR
+[09:30:50.471381] P4 | P4 --> P1 : COORDINATOR:4
+[09:30:50.473050] P4 | P4 --> P2 : COORDINATOR:4
+[09:30:50.475859] P4 | P4 --> P3 : COORDINATOR:4
+[09:30:50.478002] P4 | P4 --> P5 : COORDINATOR:4
+ID: P4 | Coordenador: P4 | Eleição: False
+[P4] comando> 

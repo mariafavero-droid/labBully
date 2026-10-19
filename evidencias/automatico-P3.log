@@ -1,0 +1,20 @@
+[09:30:52.269473] P3 | aguardando conexões na porta 5003
+Comandos: eleicao | status | sair
+[P3] comando> ID: P3 | Coordenador: indefinido | Eleição: False
+[P3] comando> ID: P3 | Coordenador: indefinido | Eleição: False
+[P3] comando> ID: P3 | Coordenador: indefinido | Eleição: False
+[P3] comando> [09:30:53.259078] P3 | P5 --> P3 : COORDINATOR (novo coordenador: P5)
+ID: P3 | Coordenador: P5 | Eleição: False
+[P3] comando> ID: P3 | Coordenador: P5 | Eleição: False
+[P3] comando> ID: P3 | Coordenador: P5 | Eleição: False
+[P3] comando> ID: P3 | Coordenador: P5 | Eleição: False
+[P3] comando> [09:30:54.255484] P3 | P4 --> P3 : COORDINATOR (novo coordenador: P4)
+ID: P3 | Coordenador: P4 | Eleição: False
+[P3] comando> ID: P3 | Coordenador: P4 | Eleição: False
+[P3] comando> ID: P3 | Coordenador: P4 | Eleição: False
+[P3] comando> ID: P3 | Coordenador: P4 | Eleição: False
+[P3] comando> ID: P3 | Coordenador: P4 | Eleição: False
+[P3] comando> ID: P3 | Coordenador: P4 | Eleição: False
+[P3] comando> [09:30:55.733406] P3 | P5 --> P3 : COORDINATOR (novo coordenador: P5)
+ID: P3 | Coordenador: P5 | Eleição: False
+[P3] comando> 

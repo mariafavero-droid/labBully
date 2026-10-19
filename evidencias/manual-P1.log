@@ -1,0 +1,42 @@
+[09:30:47.015992] P1 | aguardando conexões na porta 5001
+Comandos: eleicao | status | sair
+[P1] comando> ID: P1 | Coordenador: indefinido | Eleição: False
+[P1] comando> [09:30:47.411899] P1 | P5 --> P1 : COORDINATOR (novo coordenador: P5)
+ID: P1 | Coordenador: P5 | Eleição: False
+[P1] comando> ID: P1 | Coordenador: P5 | Eleição: False
+[P1] comando> [09:30:48.085465] P1 | P4 --> P1 : COORDINATOR (novo coordenador: P4)
+ID: P1 | Coordenador: P4 | Eleição: False
+[P1] comando> ID: P1 | Coordenador: P4 | Eleição: False
+[P1] comando> [09:30:48.883673] P1 | P5 --> P1 : COORDINATOR (novo coordenador: P5)
+ID: P1 | Coordenador: P5 | Eleição: False
+[P1] comando> ID: P1 | Coordenador: P5 | Eleição: False
+[P1] comando> [09:30:49.494389] P1 | P4 --> P1 : COORDINATOR (novo coordenador: P4)
+ID: P1 | Coordenador: P4 | Eleição: False
+[P1] comando> ID: P1 | Coordenador: P4 | Eleição: False
+[P1] comando> [09:30:50.472488] P1 | P4 --> P1 : COORDINATOR (novo coordenador: P4)
+ID: P1 | Coordenador: P4 | Eleição: False
+[P1] comando> [09:30:51.127586] P1 | INICIANDO ELEIÇÃO (iniciador local: P1)
+[09:30:51.127815] P1 | P1 --> P2 : ELECTION
+[P1] comando> ID: P1 | Coordenador: P4 | Eleição: True
+[P1] comando> [09:30:51.133992] P1 | P2 --> P1 : OK; P1 desiste em favor de ID maior
+[09:30:51.134175] P1 | P1 --> P3 : ELECTION
+[09:30:51.137636] P1 | P3 --> P1 : OK; P1 desiste em favor de ID maior
+[09:30:51.137797] P1 | P1 --> P4 : ELECTION
+[09:30:51.138212] P1 | P4 indisponível / sem OK
+[09:30:51.138298] P1 | P1 --> P5 : ELECTION
+[09:30:51.138596] P1 | P5 indisponível / sem OK
+[09:30:51.141261] P1 | P3 --> P1 : COORDINATOR (novo coordenador: P3)
+ID: P1 | Coordenador: P3 | Eleição: False
+[P1] comando> [09:30:51.628786] P1 | INICIANDO ELEIÇÃO (iniciador local: P1)[P1] comando> 
+ID: P1 | Coordenador: P3 | Eleição: True
+[P1] comando> [09:30:51.629413] P1 | P1 --> P2 : ELECTION
+[09:30:51.631173] P1 | P2 --> P1 : OK; P1 desiste em favor de ID maior
+[09:30:51.631280] P1 | P1 --> P3 : ELECTION
+[09:30:51.632640] P1 | P3 --> P1 : COORDINATOR (novo coordenador: P3)
+[09:30:51.633360] P1 | P3 --> P1 : OK; P1 desiste em favor de ID maior
+[09:30:51.633486] P1 | P1 --> P4 : ELECTION
+[09:30:51.633858] P1 | P4 indisponível / sem OK
+[09:30:51.633966] P1 | P1 --> P5 : ELECTION
+[09:30:51.634276] P1 | P5 indisponível / sem OK
+ID: P1 | Coordenador: P3 | Eleição: False
+[P1] comando> 

@@ -1,0 +1,7 @@
+PASSOU: experimento 1, eleição inicial -> P5
+PASSOU: experimento 2, falha de P5 -> P4
+PASSOU: experimento 3, recuperação de P5 -> P5
+PASSOU: experimento 4, recuperação de P2 mantém P4
+PASSOU: experimento 5, apenas P1/P2/P3 -> P3
+PASSOU: eleições simultâneas convergem para P3
+PASSOU: inicialização, falha abrupta e recuperação automáticas

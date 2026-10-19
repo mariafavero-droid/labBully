@@ -1,0 +1,38 @@
+[09:30:52.246217] P4 | aguardando conexões na porta 5004
+Comandos: eleicao | status | sair
+[P4] comando> ID: P4 | Coordenador: indefinido | Eleição: False
+[P4] comando> ID: P4 | Coordenador: indefinido | Eleição: False
+[P4] comando> ID: P4 | Coordenador: indefinido | Eleição: False
+[P4] comando> [09:30:53.246359] P4 | Coordenador None indisponível; eleição automática
+[09:30:53.247522] P4 | INICIANDO ELEIÇÃO (iniciador local: P4)
+[09:30:53.247925] P4 | P4 --> P5 : ELECTION
+[09:30:53.255947] P4 | P5 --> P4 : OK; P4 desiste em favor de ID maior
+[09:30:53.260764] P4 | P5 --> P4 : COORDINATOR (novo coordenador: P5)
+ID: P4 | Coordenador: P5 | Eleição: False
+[P4] comando> ID: P4 | Coordenador: P5 | Eleição: False
+[P4] comando> ID: P4 | Coordenador: P5 | Eleição: False
+[P4] comando> ID: P4 | Coordenador: P5 | Eleição: False
+[P4] comando> [09:30:54.248692] P4 | Coordenador 5 indisponível; eleição automática
+[09:30:54.249551] P4 | INICIANDO ELEIÇÃO (iniciador local: P4)
+[09:30:54.249768] P4 | P4 --> P5 : ELECTION
+[09:30:54.250231] P4 | P5 indisponível / sem OK
+[09:30:54.250332] P4 | VENCEDOR: P4 É O NOVO COORDENADOR
+[09:30:54.250389] P4 | P4 --> P1 : COORDINATOR:4
+[09:30:54.252545] P4 | P4 --> P2 : COORDINATOR:4
+[09:30:54.254478] P4 | P4 --> P3 : COORDINATOR:4
+[09:30:54.255949] P4 | P4 --> P5 : COORDINATOR:4
+[09:30:54.268657] P4 | P2 --> P4 : PING; P4 --> P2 : PONG
+[09:30:54.276494] P4 | P3 --> P4 : PING; P4 --> P3 : PONG
+[09:30:54.276737] P4 | P1 --> P4 : PING; P4 --> P1 : PONG
+ID: P4 | Coordenador: P4 | Eleição: False
+[P4] comando> ID: P4 | Coordenador: P4 | Eleição: False
+[P4] comando> ID: P4 | Coordenador: P4 | Eleição: False
+[P4] comando> ID: P4 | Coordenador: P4 | Eleição: False
+[P4] comando> [09:30:55.271520] P4 | P2 --> P4 : PING; P4 --> P2 : PONG
+[09:30:55.278614] P4 | P1 --> P4 : PING; P4 --> P1 : PONG
+[09:30:55.278973] P4 | P3 --> P4 : PING; P4 --> P3 : PONG
+ID: P4 | Coordenador: P4 | Eleição: False
+[P4] comando> ID: P4 | Coordenador: P4 | Eleição: False
+[P4] comando> [09:30:55.734835] P4 | P5 --> P4 : COORDINATOR (novo coordenador: P5)
+ID: P4 | Coordenador: P5 | Eleição: False
+[P4] comando> 

@@ -1,0 +1,58 @@
+[09:30:46.998328] P2 | aguardando conexões na porta 5002
+Comandos: eleicao | status | sair
+[P2] comando> ID: P2 | Coordenador: indefinido | Eleição: False
+[P2] comando> [09:30:47.413565] P2 | P5 --> P2 : COORDINATOR (novo coordenador: P5)
+ID: P2 | Coordenador: P5 | Eleição: False
+[P2] comando> [09:30:48.072829] P2 | INICIANDO ELEIÇÃO (iniciador local: P2)
+[09:30:48.073038] P2 | P2 --> P3 : ELECTION
+[P2] comando> ID: P2 | Coordenador: P5 | Eleição: True
+[P2] comando> [09:30:48.079515] P2 | P3 --> P2 : OK; P2 desiste em favor de ID maior
+[09:30:48.079606] P2 | P2 --> P4 : ELECTION
+[09:30:48.081211] P2 | P4 --> P2 : OK; P2 desiste em favor de ID maior
+[09:30:48.081293] P2 | P2 --> P5 : ELECTION
+[09:30:48.081534] P2 | P5 indisponível / sem OK
+[09:30:48.086989] P2 | P4 --> P2 : COORDINATOR (novo coordenador: P4)
+ID: P2 | Coordenador: P4 | Eleição: False
+[P2] comando> ID: P2 | Coordenador: P4 | Eleição: False
+[P2] comando> [09:30:48.885561] P2 | P5 --> P2 : COORDINATOR (novo coordenador: P5)
+ID: P2 | Coordenador: P5 | Eleição: False
+[P2] comando> ID: P2 | Coordenador: P5 | Eleição: False
+[P2] comando> [09:30:49.495684] P2 | P4 --> P2 : COORDINATOR (novo coordenador: P4)
+ID: P2 | Coordenador: P4 | Eleição: False
+[P2] comando> [09:30:50.246806] P2 | aguardando conexões na porta 5002
+Comandos: eleicao | status | sair
+[P2] comando> [09:30:50.461321] P2 | INICIANDO ELEIÇÃO (iniciador local: P2)
+[09:30:50.461458] P2 | P2 --> P3 : ELECTION
+[P2] comando> ID: P2 | Coordenador: indefinido | Eleição: True
+[P2] comando> [09:30:50.466913] P2 | P3 --> P2 : OK; P2 desiste em favor de ID maior
+[09:30:50.467058] P2 | P2 --> P4 : ELECTION
+[09:30:50.470298] P2 | P4 --> P2 : OK; P2 desiste em favor de ID maior
+[09:30:50.470476] P2 | P2 --> P5 : ELECTION
+[09:30:50.470919] P2 | P5 indisponível / sem OK
+[09:30:50.474604] P2 | P4 --> P2 : COORDINATOR (novo coordenador: P4)
+ID: P2 | Coordenador: P4 | Eleição: False
+[P2] comando> ID: P2 | Coordenador: P4 | Eleição: False
+[P2] comando> [09:30:51.133142] P2 | P1 --> P2 : ELECTION
+[09:30:51.133624] P2 | P2 --> P1 : OK
+[09:30:51.134300] P2 | INICIANDO ELEIÇÃO (iniciador local: P2)
+[09:30:51.134522] P2 | P2 --> P3 : ELECTION
+[09:30:51.138347] P2 | P3 --> P2 : OK; P2 desiste em favor de ID maior
+[09:30:51.138479] P2 | P2 --> P4 : ELECTION
+[09:30:51.138848] P2 | P4 indisponível / sem OK
+[09:30:51.138948] P2 | P2 --> P5 : ELECTION
+[09:30:51.139341] P2 | P5 indisponível / sem OK
+[09:30:51.143583] P2 | P3 --> P2 : COORDINATOR (novo coordenador: P3)
+ID: P2 | Coordenador: P3 | Eleição: False
+[P2] comando> [09:30:51.628822] P2 | INICIANDO ELEIÇÃO (iniciador local: P2)[P2] comando> ID: P2 | Coordenador: P3 | Eleição: True
+[P2] comando> 
+[09:30:51.629203] P2 | P2 --> P3 : ELECTION
+[09:30:51.630593] P2 | P1 --> P2 : ELECTION
+[09:30:51.630862] P2 | P2 --> P1 : OK
+[09:30:51.631819] P2 | P3 --> P2 : OK; P2 desiste em favor de ID maior
+[09:30:51.631915] P2 | P2 --> P4 : ELECTION
+[09:30:51.632259] P2 | P4 indisponível / sem OK
+[09:30:51.632348] P2 | P2 --> P5 : ELECTION
+[09:30:51.632571] P2 | P5 indisponível / sem OK
+[09:30:51.634822] P2 | P3 --> P2 : COORDINATOR (novo coordenador: P3)
+ID: P2 | Coordenador: P3 | Eleição: False
+[P2] comando> 

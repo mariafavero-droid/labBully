@@ -1,0 +1,21 @@
+[09:30:47.014376] P5 | aguardando conexões na porta 5005
+Comandos: eleicao | status | sair
+[P5] comando> [09:30:47.407281] P5 | INICIANDO ELEIÇÃO (iniciador local: P5)
+[09:30:47.407460] P5 | VENCEDOR: P5 É O NOVO COORDENADOR
+[09:30:47.407497] P5 | P5 --> P1 : COORDINATOR:5
+[P5] comando> ID: P5 | Coordenador: P5 | Eleição: True
+[P5] comando> [09:30:47.412430] P5 | P5 --> P2 : COORDINATOR:5
+[09:30:47.414102] P5 | P5 --> P3 : COORDINATOR:5
+[09:30:47.415672] P5 | P5 --> P4 : COORDINATOR:5
+ID: P5 | Coordenador: P5 | Eleição: False
+[P5] comando> [09:30:48.654462] P5 | aguardando conexões na porta 5005
+Comandos: eleicao | status | sair
+[P5] comando> [09:30:48.877145] P5 | INICIANDO ELEIÇÃO (iniciador local: P5)
+[09:30:48.877498] P5 | VENCEDOR: P5 É O NOVO COORDENADOR
+[09:30:48.877605] P5 | P5 --> P1 : COORDINATOR:5
+[P5] comando> ID: P5 | Coordenador: P5 | Eleição: True
+[P5] comando> [09:30:48.884421] P5 | P5 --> P2 : COORDINATOR:5
+[09:30:48.886075] P5 | P5 --> P3 : COORDINATOR:5
+[09:30:48.887405] P5 | P5 --> P4 : COORDINATOR:5
+ID: P5 | Coordenador: P5 | Eleição: False
+[P5] comando> 
